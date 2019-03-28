@@ -1,0 +1,18 @@
+.intro-container {
+    background-image: url("images/jonkoping.jpg");
+    background-position: center;
+    height: 70vh;
+    
+}
+
+.ui.grid{
+    padding: 0 !important;
+    }
+.pushable.segment{
+    margin: 0 !important;
+}
+
+.logo {
+    height: 2.6em;
+    width: 10em!important;
+}
