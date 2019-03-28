@@ -1,8 +1,30 @@
 .intro-container {
-    background-image: url("images/jonkoping.jpg");
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('./images/jonkoping.jpg');
     background-position: center;
+    background-size: cover;
     height: 70vh;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-container h1 {
+    color: #fff!important;
+    padding: 0.4em!important;
+}
+
+.ui.black.message {
+    margin: 0;
+}
+
+.product-description {
+    max-width: 35em;
+    margin: 0 auto!important;
+}
+
+.antenna-container {
+    background-color: rgb(21, 21, 21);
+    height: 20em;
 }
 
 .ui.grid{

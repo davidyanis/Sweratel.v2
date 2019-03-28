@@ -10,24 +10,24 @@
     <script src="./semantic/semantic.js"></script>
     <script src="./js/script.js"></script>
    
-    <title>Document</title>
+    <title>Sweratel</title>
 </head>
 
 <body>
     <div class="ui grid">
         <div class="computer only row">
             <div class="column">
-                <div class="ui top fixed menu">
+                <div id="mainNav" class="ui top fixed menu">
                     <div class="borderless item">
-                        <a href="index.html"><img class="logo" src="/images/logotext.png"></a>
+                        <a href="index.php"><img class="logo" src="/images/logotext.png"></a>
                     </div>
                     <div class="right menu">
-                        <a class="item">Technology</a>
-                        <a class="item">Products</a>
-                        <a class="item">Antennas</a>
-                        <a class="item">Company</a>
-                        <a class="item">Press</a>
-                        <a class="item">Contact</a>
+                        <a class="borderless item active" href="#technology">Technology</a>
+                        <a href="#products" class="borderless item">Products</a>
+                        <a href="#antennas" class="borderless item">Antennas</a>
+                        <a href="#company" class="borderless item">Company</a>
+                        <a href="#press" class="borderless item">Press</a>
+                        <a href="#contact" class="borderless item">Contact</a>
                     </div>
                 </div>
             </div>
@@ -47,19 +47,31 @@
 
     <div class="ui pushable segment">
         <div class="ui sidebar vertical menu david">
-            <div class="placeholder" style="height: 4em;"></div>
-            <a class="item">Menu Item A</a>
-            <a class="item">Menu Item B</a>
-            <a class="item">Menu Item C</a>
-            <a class="item">Menu Item D</a>
+            <div class="placeholder" style="height: 5em;"></div>
+            <a href="#technology" class="borderless item active">Technology</a>
+            <a href="#products" class="borderless item">Products</a>
+            <a href="#antennas" class="borderless item">Antennas</a>
+            <a href="#company" class="borderless item">Company</a>
+            <a href="#press" class="borderless item">Press</a>
+            <a href="#contact" class="borderless item">Contact</a>
         </div>
         <div class="pusher">
-            <div class="placeholder" style="height: 3.8em;"></div>
-            <div class="ui fluid intro-container">
-                
+            <div class="placeholder" style="height: 4.8em;"></div>
+            <div id="technology" class="section ui fluid intro-container">
+                <h1 class="ui aligned header">Kort text som beskriver företaget..</h1>
             </div>
-            <div id="content" class="ui segment">
-            
+            <div class="ui black message">
+                <p>Sweratel’s website is currently undergoing a major re-work with enhanced graphical design to be released in Q1, 2019.</p>
+            </div>
+            <div id="products" class="section ui center aligned very padded segment">
+                <h1 class="ui header">
+                    Our products
+                    <div class="sub header product-description">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+                </h1>
+                <button class="ui inverted blue button">Learn more</button>
+            </div>
+            <div class="ui fluid antenna-container">
+
             </div>
         </div>
     </div>
