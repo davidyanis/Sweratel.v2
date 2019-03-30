@@ -70,7 +70,7 @@ body {
 }
 
 .ui.sidebar {
-    position: absolute!important;
+    /* Mobil sidobaren byggd med semantic */
 }
 .pushable.segment{
     margin: 0 !important;
