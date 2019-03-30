@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="./style.css">
     <script src="./semantic/semantic.js"></script>
     <script src="./js/script.js"></script>
-   
     <title>Sweratel</title>
 </head>
 
@@ -63,19 +62,78 @@
             <div class="ui black message">
                 <p>Sweratel’s website is currently undergoing a major re-work with enhanced graphical design to be released in Q1, 2019.</p>
             </div>
-            <div id="products" class="section ui center aligned very padded segment">
-                <h1 class="ui header">
+            <div id="products" class="ui center aligned container">
+                <h1 class="ui horizontal divider header">
                     Our products
-                    <div class="sub header product-description">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
                 </h1>
+                    <div class="sub header product-description">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+                
                 <button class="ui inverted blue button">Learn more</button>
             </div>
             <div class="ui fluid antenna-container">
-
+                <h1 class="ui grey center aligned header">Antennas</h1>
             </div>
-        </div>
+
+            <div class="ui container">
+            <div class="ui stackable three cards">
+                <div class="card">
+                    <div class="image">
+                    <img src="./images/antenna.jpg">
+                    </div>
+                    <div class="content">
+                        <div class="header">Antenna namn</div>
+                        <div class="description">
+                            Beskrivning..
+                        </div>
+                    </div>
+                    <button class="ui bottom attached inverted blue button">Read more</button>
+                </div>
+                <div class="card">
+                    <div class="image">
+                    <img src="./images/antenna.jpg">
+                    </div>
+                    <div class="content">
+                        <div class="header">Antenna namn</div>
+                        <div class="description">
+                            Beskrivning..
+                        </div>
+                    </div>
+                    <button class="ui bottom attached inverted blue button">Read more</button>
+                </div>
+                <div class="card">
+                    <div class="image">
+                    <img src="./images/antenna.jpg">
+                    </div>
+                    <div class="content">
+                        <div class="header">Antenna namn</div>
+                        <div class="description">
+                            Beskrivning..
+                        </div>
+                    </div>
+                    <button class="ui bottom attached inverted blue button">Read more</button>
+                </div>
+            </div> 
+            </div>
+            <div class="ui placeholder"></div>
+            <div class="ui inverted segment">
+                <h1 class="ui horizontal divider header container">
+                    Company
+                </h1>
+                <div class="sub header product-description">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+            </div>
+            <div class="ui container">
+                <h1 class="ui horizontal divider header container">
+                    Press release
+                </h1>
+                <div class="sub header product-description">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+            </div>
+            <footer>
+                Contact us
+            </footer>
     </div>
-      
+    </div>
+    
+     
 
     <div class="wrapper-for-site">
         <div class="container-for-first-picture"> 

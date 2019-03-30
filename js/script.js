@@ -13,12 +13,17 @@ $(document).ready(function() {
           $('.'+theClass).parent('a').addClass('active');
           //Animate
           $('html, body').stop().animate({
-              scrollTop: $( $(this).attr('href') ).offset().top - 160
+              scrollTop: $( $(this).attr('href') ).offset().top - 100
           }, 800);
           return false;
         });
         $('.scrollTop a').scrollTop();
       }
       scrollNav();
+
+      $('.special.cards .image').dimmer({
+        on: 'hover'
+      });
+      
 
 });

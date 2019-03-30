@@ -17,14 +17,19 @@
     margin: 0;
 }
 
+#products {
+    padding: 3em;
+}
+
 .product-description {
     max-width: 35em;
     margin: 0 auto!important;
 }
 
 .antenna-container {
-    background-color: rgb(21, 21, 21);
-    height: 20em;
+    background-color: #151515;
+    height: 10em;
+    margin-bottom: 2em;
 }
 
 .ui.grid{
@@ -37,4 +42,9 @@
 .logo {
     height: 2.6em;
     width: 10em!important;
+}
+
+footer {
+    background-color: rgb(29, 102, 211);
+    height: 10em;
 }
