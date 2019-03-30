@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .intro-container {
     background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('./images/jonkoping.jpg');
     background-position: center;
@@ -11,6 +15,7 @@
 .intro-container h1 {
     color: #fff!important;
     padding: 0.4em!important;
+    font-size: 3em!important;
 }
 
 .ui.black.message {
@@ -18,25 +23,65 @@
 }
 
 #products {
-    padding: 3em;
+    padding: 5em;
 }
 
 .product-description {
     max-width: 35em;
     margin: 0 auto!important;
+    font-size: 1.5em!important;
+}
+
+.product-button {
+    margin-top: 1em!important;
 }
 
 .antenna-container {
-    background-color: #151515;
-    height: 10em;
-    margin-bottom: 2em;
+    background-color: #FAFAFA;
+    border-top: 1px solid rgb(241, 241, 241);
+    padding: 5em;
 }
 
-.ui.grid{
+.antenna-card-container {
+    background-color: #FAFAFA!important;
+}
+
+
+#company {
+    height: 30em;
+    padding: 5em;
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('./images/sweratel-testing-image.jpg');
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+
+#press {
+    padding: 5em;
+}
+
+.ui.grid {
     padding: 0 !important;
-    }
+    margin-right: 0!important;
+}
+
+.ui.sidebar {
+    position: absolute!important;
+}
 .pushable.segment{
     margin: 0 !important;
+}
+
+.header-title {
+    font-size: 3em!important;
+}
+
+.antenna-title {
+    margin-bottom: 1em!important;
 }
 
 .logo {
@@ -45,6 +90,32 @@
 }
 
 footer {
-    background-color: rgb(29, 102, 211);
-    height: 10em;
+    background: #54C8FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0072ff, #54C8FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0072ff, #54C8FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    height: auto;
+    margin-top: 2em;
+    padding-top: 5em;
 }
+
+.sendButton {
+    margin-top: 1em!important;
+}
+
+@media only screen and (max-width: 768px) {
+    #products {
+        padding-right: 1em;
+        padding-left: 1em;
+    }
+
+    #company-background {
+        padding-right: 1em;
+        padding-left: 1em;
+    }
+
+    #press {
+        padding-right: 1em;
+        padding-left: 1em;
+    }
+  }
